@@ -1,0 +1,26 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Bookshelf API Dicoding Submission",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "lint": "eslint --fix ./src"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Putu Widyantara",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^4.0.1",
+    "nodemon": "^2.0.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0"
+  },
+  "type": "module"
+}
